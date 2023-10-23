@@ -1,0 +1,129 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cover {
+    background: url("i/norway-3840x2160-4k-hd-wallpaper-geiranger-stryn-mountain-clouds-860.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-decoration-color: yellow;
+}
+
+#Image1 {
+    width: 24vw;
+    height: 60vh;
+    margin-bottom: 5px;
+}
+
+.menu {
+    background-color: #0f1990;
+    text-align: center;
+    padding: 10px;
+}
+
+    .menu a {
+        color: #0f1990;
+        padding: 10px 10px;
+    }
+
+        .menu a:hover {
+            color: black;
+            border-bottom: 3px solid red;
+        }
+
+.elements {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    width: 24vw;
+    height: 60vh;
+    /* box-shadow: black 0px 40px 60px;*/
+}
+
+#Label1 {
+    display: block;
+    padding-top: 7vh;
+    padding-left: 7.5vw;
+    font-size: 6vw;
+    font-size: 8vh;
+    font-family: 'Leckerli One','Algerian';
+    text-shadow: black 0px 20px 20px;
+}
+
+.txt1 {
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+
+
+.txt2 {
+    margin-top: 7.4vh;
+    margin-left: 2vw;
+}
+
+    .txt1[placeholder], .txt2[placeholder] {
+        font-family: 'Oleo Script Swash Caps';
+        font-size: 2vw;
+        padding-left: 6vw;
+    }
+
+.txtstyle {
+    width: 20vw;
+    height: 6vh;
+    border: 0;
+    border-radius: 4%;
+    background-color: rgba(252,251,251,0.80);
+    /*box-shadow: black 0px 30px 50px;*/
+}
+
+    .txtstyle:hover {
+        background-color: red;
+    }
+
+.btn1 {
+    margin-top: 7.4vh;
+    margin-left: 2vw;
+}
+
+.btn2 {
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+
+
+.btnstyle {
+    margin-top: 7vh;
+    width: 20vw;
+    height: 6vh;
+    margin-left: 2vw;
+    font-family: 'Oleo Script Swash Caps';
+    font-size: 2vw;
+    border: 0px;
+    color: black;
+    /*text-shadow: black 0px 10px 10px;*/
+    background-color: rgba(255,255,255,0.57);
+}
+
+    .btnstyle:hover {
+        background-color: red;
+        /*   box-shadow: black 0px 90px 80px;*/
+    }
